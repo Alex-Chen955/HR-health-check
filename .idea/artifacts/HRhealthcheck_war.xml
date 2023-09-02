@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HRhealthcheck:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>HRhealthcheck</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="HRhealthcheck-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="HRhealthcheck:war exploded" />
+    </root>
+  </artifact>
+</component>

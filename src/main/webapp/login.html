@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      background-image:url(bj.png);
+      background-size: 1550px auto;
+      background-repeat: no-repeat;
+
+    }
+    table{
+      width: 300px;
+    }
+    .shuru{
+      width: 100%;
+      height: 42px;
+      margin-top: 25px;
+      padding: 0 15px;
+      background: rgba(45,45, 45, .15);
+      border-radius: 6px;
+      border: 1px solid rgba(255,255, 255, .15);
+      box-shadow: 1 2px 3px rgb(0 0 0 / 10%)inset;
+      font-size: 14px;
+      color: #fff;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    }
+    .anniu{
+      width: 300px;
+      height: 42px;
+      margin-top: 25px;
+      padding: 0 15px;
+      background: rgba(45,45, 45, .15);
+      border-radius: 6px;
+      border: 1px solid rgba(255,255, 255, .15);
+      box-shadow: 1 2px 3px rgb(0 0 0 / 10%)inset;
+      font-size: 14px;
+      color: #fff;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    }
+    h1{
+      color:saddlebrown;
+      margin-bottom: 50px;
+
+    }
+  </style>
+</head>
+<body >
+<center>
+  <h1>HR Health Check Management System</h1>
+</center>
+
+<center>
+  <form action="/hr/user/login" method="post">
+    <table>
+      <tr>
+        <td><input type="text" name="userName" placeholder="userName" class="shuru"></td>
+      </tr>
+      <tr>
+        <td><input type="password" name="password" placeholder="password" class="shuru"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="login" class="anniu"><input type="reset" value="reset" class="anniu"></td>
+      </tr>
+
+    </table>
+</center>
+
+</form>
+</body>
+</html>
