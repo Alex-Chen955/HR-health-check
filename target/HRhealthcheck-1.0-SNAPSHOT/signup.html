@@ -1,0 +1,128 @@
+<html>
+<head>
+    <style>
+        *{
+            outline: none;
+        }
+        body{
+            position: relative;
+            background-image: url(bj.png);
+            /* background-size: 100% 100%; */
+            background-repeat: no-repeat;
+            background-size: 1600px auto;
+        }
+        .main{
+            position: absolute;
+            width: 800px;
+            height: 500px;
+            border-radius: 6px;
+            margin: 0px auto;
+            margin-left: 530px;
+            /* background-color: rgb(255, 242, 242); */
+        }
+        .item{
+            position: relative;
+            height: 40px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-top: 5px;
+        }
+        .item font{
+            color: rgb(201, 46, 92);
+
+        }
+        .item font{
+            position: absolute;
+            bottom: 0px;
+        }
+        .shuru{
+            float: right;
+            margin-right: 350px;
+            width: 250px;
+            height: 40px;
+            padding: 0 10px;
+            background: transparent;
+            border:none;
+            border-radius:0;
+            border-bottom:#8D8D8D 1px solid;
+            box-shadow: 1 2px 3px rgb(0 0 0 / 10%)inset;
+            font-size: 14px;
+            color: black;
+            text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+        }
+        .anniu{
+            width: 300px;
+            height: 42px;
+            margin-top: 25px;
+            margin-left: -20px;
+            padding: 0 15px;
+            background: rgba(45,45, 45, .15);
+            border-radius: 6px;
+            border: 1px solid rgba(255,255, 255, .15);
+            box-shadow: 1 2px 3px rgb(0 0 0 / 10%)inset;
+            cursor: pointer;
+            font-size: 14px;
+            color: #fff;
+            text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+        }
+
+    </style>
+
+
+</head>
+<body >
+<center>
+    <h1 style=" color:saddlebrown;">HR Health Check Management System</h1>
+</center>
+<form action="/hr/user/add" method="post">
+    <div class="main">
+        <div class="item">
+            <font>userName:</font>
+            <input type="text" name="userName" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>password:</font>
+            <input type="password" name="password"  class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>companyName:</font>
+            <input type="text" name="companyName" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>businessSector:</font>
+            <input type="text" name="businessSector" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>numberOfEmployees:</font>
+            <input type="text" name="numberOfEmployees" class="shuru" ><br>
+        </div>
+        <div class="item">
+            <font>companyLocation:</font>
+            <input type="text" name="companyLocation" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>contactName:</font>
+            <input type="text" name="contactName" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>contactJobTitle:</font>
+            <input type="text" name="contactJobTitle" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>contactEmail:</font>
+            <input type="text" name="contactEmail" class="shuru"><br>
+        </div>
+        <div class="item">
+            <font>contactTelephone:</font>
+            <input type="text" name="contactTelephone" class="shuru"><br>
+        </div>
+        <div class="item">
+            <input type="submit" value="submit" class="anniu"><br>
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>

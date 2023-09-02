@@ -1,0 +1,11 @@
+<p>
+General Data Protection Regulation requires businesses to take steps to protect the personal information they collect for. It also specifies actions required by law to prevent data breaches and lists eight “data subject rights”. These are:<br>
+1.The right to be informed<br>
+2.The right of access<br>
+3.The right to rectification<br>
+4.The right to erasure<br>
+5.The right to restrict processing<br>
+6.The right to data portability<br>
+7.The right to object Rights in relation to automated decision making and profiling<br>
+These rights apply to partner businesses, clients and employees alike. Failure to adhere to them may result in prosecution. This article deals in particular with the “right to erasure” and specifically GDPR data retention periods.
+</p>

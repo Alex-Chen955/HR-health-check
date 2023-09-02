@@ -1,0 +1,1983 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            /* margin-top: 90px; */
+            margin-bottom: 75px;
+        }
+        table{
+            margin: 0 auto;
+        }
+        .red{
+            color: red;
+        }
+        .amber{
+            color: #ec7c30;
+        }
+        .green{
+            color: green;
+        }
+        body{
+            /* background-image: url(wenjuanimg/background.jpg);
+             */
+            background-image: url(bj.png);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: 1550px;
+        }
+        div{
+            height: 445px;
+        }
+        .xiayiye{
+            width: 100px;
+            border-radius: 0px;
+        }
+        .submit{
+            float: right;
+            margin-right: 200px;
+            margin-top: 50px;
+        }
+
+        .page{
+            margin-top: 50px;
+            margin-left: 600px;
+        }
+
+        .showpage{
+            border-radius: 10px;
+            color: red;
+            outline: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="1">
+        <h1>Legal Compliance</h1>
+    <table>
+        <tr>
+            <td colspan="3"><h4>1. Do you have a process in place to ensure that all have the right to work in Ireland?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="LC1" value="0">red</td>
+            <td class="amber"><input type="radio" name="LC1" value="1">amber</td>
+            <td class="green"><input type="radio" name="LC1" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>2. Do all of your employees have a contract providing written terms and conditions of their employment?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="LC2" value="0">red</td>
+            <td class="amber"><input type="radio" name="LC2" value="1">amber</td>
+            <td class="green"><input type="radio" name="LC2" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>3. Do you issue an addendum for any changes in employment terms and conditions? Wage changes, hours of work etc?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="LC3" value="0">red</td>
+            <td class="amber"><input type="radio" name="LC3" value="1">amber</td>
+            <td class="green"><input type="radio" name="LC3" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>4. Do you ensure that you do not indirectly discriminate through poor recruitment and selection procedures,and pay and incentive schemes? </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="LC4" value="0">red</td>
+            <td class="amber"><input type="radio" name="LC4" value="1">amber</td>
+            <td class="green"><input type="radio" name="LC4" value="2">green</td>
+        </tr>
+
+
+    </table>
+    <div class="submit">
+        <td><button id="19"  onclick="next(this) "><img  src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+    </div>
+    <div class="page">
+        <button class="showpage">1</button>
+        <input type="text" id="18" style="width: 30px;margin-left: 5px;">
+        <button id="17" onclick="jump(this)">transfer</button>
+    </div>
+    </div>
+
+    <div id="2">
+        <h1>Hours of Work and Leave</h1>
+    <table>
+        <tr>
+            <td colspan="3"><h4>1. Do Your employees receive breaks in line with Working Time Regulations?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="HWL1" value="0">red</td>
+            <td class="amber"><input type="radio" name="HWL1" value="1">amber</td>
+            <td class="green"><input type="radio" name="HWL1" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>2. Do all of your employees receive at least their statutory minimum holidays and public holiday entitlements?
+            </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="HWL2" value="0">red</td>
+            <td class="amber"><input type="radio" name="HWL2" value="1">amber</td>
+            <td class="green"><input type="radio" name="HWL2" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>3. Are you complying with maternity, paternity, parental and other statutory leave rights for your employees?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="HWL3" value="0">red</td>
+            <td class="amber"><input type="radio" name="HWL3" value="1">amber</td>
+            <td class="green"><input type="radio" name="HWL3" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>4. Do you keep an accurate record of each employees working hours including rest breaks?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="HWL4" value="0">red</td>
+            <td class="amber"><input type="radio" name="HWL4" value="1">amber</td>
+            <td class="green"><input type="radio" name="HWL4" value="2">green</td>
+        </tr>
+        
+    </table>
+    
+
+<div class="submit">
+    <tr>
+        <td><button id="21" onclick="last(this)"><img  src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+        <td><button id="22"  onclick="next(this)"><img  src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+    </tr>
+
+</div>
+
+<div class="page">
+    <button class="showpage">2</button>
+    <input type="text" id="28" style="width: 30px;margin-left: 5px;">
+    <button id="27" onclick="jump(this)">transfer</button>
+</div>
+    </div>
+
+    <div id="3">
+    <h1>Policies & Practices</h1>        
+        <table>
+            <tr>
+                <td colspan="3"><h4>1. Do you have a set of clear and comprehensive 
+                    employment policies (Employee Handbook) in place 
+                    that is accessible to managers and employees?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PP1" value="0">red</td>
+                <td class="amber"><input type="radio" name="PP1" value="1">amber</td>
+                <td class="green"><input type="radio" name="PP1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.Do you feel confident about responding to a request
+                    for flexible working?
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PP2" value="0">red</td>
+                <td class="amber"><input type="radio" name="PP2" value="1">amber</td>
+                <td class="green"><input type="radio" name="PP2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3. Are staff and managers aware of how to recognise and
+                    deal with bullying and harassment?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PP3" value="0">red</td>
+                <td class="amber"><input type="radio" name="PP3" value="1">amber</td>
+                <td class="green"><input type="radio" name="PP3" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>4.  Do you have adequate policies in place to protect your 
+                    business such as social media policies, confidentiality 
+                    agreements, intellectual property and restrictive 
+                    covenants?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PP4" value="0">red</td>
+                <td class="amber"><input type="radio" name="PP4" value="1">amber</td>
+                <td class="green"><input type="radio" name="PP4" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>5.  Do you have a written equal opportunities policy? </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PP5" value="0">red</td>
+                <td class="amber"><input type="radio" name="PP5" value="1">amber</td>
+                <td class="green"><input type="radio" name="PP5" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="31" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="32"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">3</button>
+            <input type="text" id="38" style="width: 30px;margin-left: 5px;">
+            <button id="37" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="4">
+        <h1>Employee Relations  </h1>
+        <table>
+            <tr>
+                <td colspan="3"><h4>1. Are you and your managers well equipped to handle an
+                    employee dispute, grievance or disciplinary situation?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ER1" value="0">red</td>
+                <td class="amber"><input type="radio" name="ER1" value="1">amber</td>
+                <td class="green"><input type="radio" name="ER1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2. Are you and your managers well equipped to discuss 
+                    difficult topics with employees? (E.G sickness absence,
+                    poor performance)
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ER2" value="0">red</td>
+                <td class="amber"><input type="radio" name="ER2" value="1">amber</td>
+                <td class="green"><input type="radio" name="ER2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3. Do you have to deal with a lot of employee grievances?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ER3" value="0">red</td>
+                <td class="amber"><input type="radio" name="ER3" value="1">amber</td>
+                <td class="green"><input type="radio" name="ER3" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="41" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="42"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">4</button>
+            <input type="text" id="48" style="width: 30px;margin-left: 5px;">
+            <button id="47" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="5">
+        <h1>Performance Management  </h1>
+
+        <table>
+            <tr>
+                <td colspan="3"><h4>1.Do all employees have job descriptions and clearly 
+                    defined roles?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM1" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM1" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.  Do you have a process for objectively assessing the
+                    performance of your employees?
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM2" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM2" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3.  Do you provide frequent feedback to your employees?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM3" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM3" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM3" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>4.   Do you manage an employee’s probationary period 
+                    effectively with regular check ins and feedback?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM4" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM4" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM4" value="2">green</td>
+            </tr>
+    
+            <tr>
+                <td colspan="3"><h4>5.   Do you have a persistent or long-term sickness absence 
+                    problem within your business?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM5" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM5" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM5" value="2">green</td>
+            </tr>
+    
+            <tr>
+                <td colspan="3"><h4>6.   Are you dealing with a lot of disciplinaries within your 
+                    business</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="PM6" value="0">red</td>
+                <td class="amber"><input type="radio" name="PM6" value="1">amber</td>
+                <td class="green"><input type="radio" name="PM6" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="51" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="52"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">5</button>
+            <input type="text" id="58" style="width: 30px;margin-left: 5px;">
+            <button id="57" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+ 
+    <div id="6">
+        <h1>Training and Development  </h1>
+
+        <table>
+            <tr>
+                <td colspan="3"><h4>1.Do you have a method to identify the skills gaps and
+                    development needs of your workforce?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="TD1" value="0">red</td>
+                <td class="amber"><input type="radio" name="TD1" value="1">amber</td>
+                <td class="green"><input type="radio" name="TD1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.  Do you have a method to identify the skills gaps and
+                    development needs of your workforce?
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="TD2" value="0">red</td>
+                <td class="amber"><input type="radio" name="TD2" value="1">amber</td>
+                <td class="green"><input type="radio" name="TD2" value="2">green</td>
+            </tr>     
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="61" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="62"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">6</button>
+            <input type="text" id="68" style="width: 30px;margin-left: 5px;">
+            <button id="67" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="7">
+        <h1>Recruitment & Retention </h1>
+        <table>
+            <tr>
+                <td colspan="3"><h4>1. Do you have high staff turnover rates?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="RR1" value="0">red</td>
+                <td class="amber"><input type="radio" name="RR1" value="1">amber</td>
+                <td class="green"><input type="radio" name="RR1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2. Are you clear about why employees have left your 
+                    business?
+                    
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="RR2" value="0">red</td>
+                <td class="amber"><input type="radio" name="RR2" value="1">amber</td>
+                <td class="green"><input type="radio" name="RR2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3.   Do you gain enough quality candidates through your
+                    recruitment methods?
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="RR3" value="0">red</td>
+                <td class="amber"><input type="radio" name="RR3" value="1">amber</td>
+                <td class="green"><input type="radio" name="RR3" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>4.  Are you and your managers trained in interviewing and
+                    selection techniques?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="RR4" value="0">red</td>
+                <td class="amber"><input type="radio" name="RR4" value="1">amber</td>
+                <td class="green"><input type="radio" name="RR4" value="2">green</td>
+            </tr>
+    
+            <tr>
+                <td colspan="3"><h4>5.   Do you have a structured onboarding process?
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="RR5" value="0">red</td>
+                <td class="amber"><input type="radio" name="RR5" value="1">amber</td>
+                <td class="green"><input type="radio" name="RR5" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="71" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="72"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">7</button>
+            <input type="text" id="78" style="width: 30px;margin-left: 5px;">
+            <button id="77" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="8">
+        <h1>Change and Reorganisation </h1>
+    <table>
+        <tr>
+            <td colspan="3"><h4>1. Are you aware of the employment law implications of
+                handling a business re-organisation?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="CR11" value="0">red</td>
+            <td class="amber"><input type="radio" name="CR11" value="1">amber</td>
+            <td class="green"><input type="radio" name="CR11" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>2.Do you have strong policies in place to manage a
+                downturn in the business and potential redundancies?
+            </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="CR22" value="0">red</td>
+            <td class="amber"><input type="radio" name="CR22" value="1">amber</td>
+            <td class="green"><input type="radio" name="CR22" value="2">green</td>
+        </tr>
+    </table>
+    <div class="submit">
+        <tr>
+            <td><button id="81" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+            <td><button id="82"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+        </tr>
+    </div>
+    <div class="page">
+        <button class="showpage">8</button>
+        <input type="text" id="88" style="width: 30px;margin-left: 5px;">
+        <button id="87" onclick="jump(this)">transfer</button>
+    </div>
+    </div>
+
+    <div id="9">
+    <h1>Pay and Benefits  </h1>
+    <table>
+        <tr>
+            <td colspan="3"><h4>1.Do you have a process for assessing and reviewing the 
+                salary and other benefits of your employees?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="PB1" value="0">red</td>
+            <td class="amber"><input type="radio" name="PB1" value="1">amber</td>
+            <td class="green"><input type="radio" name="PB1" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>2.   Do your employees receive a statement of earnings?
+                (Payslip)
+            </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="PB2" value="0">red</td>
+            <td class="amber"><input type="radio" name="PB2" value="1">amber</td>
+            <td class="green"><input type="radio" name="PB2" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>3.   Do you meet legal requirements such as the National
+                Minimum Wage and equal pay?
+                </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="PB3" value="0">red</td>
+            <td class="amber"><input type="radio" name="PB3" value="1">amber</td>
+            <td class="green"><input type="radio" name="PB3" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>4.   Do all of your employees have access to a PRSA?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="PB4" value="0">red</td>
+            <td class="amber"><input type="radio" name="PB4" value="1">amber</td>
+            <td class="green"><input type="radio" name="PB4" value="2">green</td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><h4>5.  Do all of your employees have access to a PRSA?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="PB5" value="0">red</td>
+            <td class="amber"><input type="radio" name="PB5" value="1">amber</td>
+            <td class="green"><input type="radio" name="PB5" value="2">green</td>
+        </tr>
+    </table>
+    <div class="submit">
+        <tr>
+            <td><button id="91" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+            <td><button id="92"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+        </tr>
+    </div>
+    <div class="page">
+        <button class="showpage">9</button>
+        <input type="text" id="98" style="width: 30px;margin-left: 5px;">
+        <button id="97" onclick="jump(this)">transfer</button>
+    </div>
+    </div>
+
+    <div id="10">
+        <h1>Employee Communication & Engagement  </h1>
+    <table>
+        <tr>
+            <td colspan="3"><h4>1. Do you conduct a regular employee engagement
+                survey?</h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="ECE1" value="0">red</td>
+            <td class="amber"><input type="radio" name="ECE1" value="1">amber</td>
+            <td class="green"><input type="radio" name="ECE1" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>2.   Do you keep employees informed about business 
+                developments? (e.g. financial performance,
+                forthcoming changes)
+            </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="ECE2" value="0">red</td>
+            <td class="amber"><input type="radio" name="ECE2" value="1">amber</td>
+            <td class="green"><input type="radio" name="ECE2" value="2">green</td>
+        </tr>
+        <tr>
+            <td colspan="3"><h4>3.   Do you communicate with all of your employees 
+                regularly and allow for their input/contribution?
+                
+                </h4></td>
+        </tr>
+        <tr>
+            <td class="red"><input type="radio" name="ECE3" value="0">red</td>
+            <td class="amber"><input type="radio" name="ECE3" value="1">amber</td>
+            <td class="green"><input type="radio" name="ECE3" value="2">green</td>
+        </tr>
+    </table>
+    <div class="submit">
+        <tr>
+            <td><button id="101" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+            <td><button id="102"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+        </tr>
+    </div>
+    <div class="page">
+        <button class="showpage">10</button>
+        <input type="text" id="108" style="width: 30px;margin-left: 5px;">
+        <button id="107" onclick="jump(this)">transfer</button>
+    </div>
+    </div>
+
+    <div id="11">
+        <h1>Health and Safety    </h1>
+        <table>
+            <tr>
+                <td colspan="3"><h4>1.Does your business have a health and safety policy and 
+                    statement that is visible to all employees and reviewed 
+                    annually?</h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="HS1" value="0">red</td>
+                <td class="amber"><input type="radio" name="HS1" value="1">amber</td>
+                <td class="green"><input type="radio" name="HS1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.   Are workplace accidents, near-misses, injuries, and 
+                    illnesses reported and investigated?
+                    
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="HS2" value="0">red</td>
+                <td class="amber"><input type="radio" name="HS2" value="1">amber</td>
+                <td class="green"><input type="radio" name="HS2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3.  Do you ensure that you are looking after the employees 
+                    mental as well as physical health?
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="HS3" value="0">red</td>
+                <td class="amber"><input type="radio" name="HS3" value="1">amber</td>
+                <td class="green"><input type="radio" name="HS3" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+            <td><button id="111" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+            <td><button id="112"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">11</button>
+            <input type="text" id="118" style="width: 30px;margin-left: 5px;">
+            <button id="117" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="12">
+        <h1>Covid Related
+        </h1>
+        <table>
+            <tr>
+                <td colspan="3"><h4>1.Have all of your staff been through the Return-to-Work 
+                    Covid Induction?
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="CR1" value="0">red</td>
+                <td class="amber"><input type="radio" name="CR1" value="1">amber</td>
+                <td class="green"><input type="radio" name="CR1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.    Have you at least one Lead Worker Representative 
+                    appointed?
+                    
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="CR2" value="0">red</td>
+                <td class="amber"><input type="radio" name="CR2" value="1">amber</td>
+                <td class="green"><input type="radio" name="CR2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3. Have risk assessments been carried out on homework
+                    stations for employees working remotely?
+                    
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="CR3" value="0">red</td>
+                <td class="amber"><input type="radio" name="CR3" value="1">amber</td>
+                <td class="green"><input type="radio" name="CR3" value="2">green</td>
+            </tr>
+           
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="121" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><button id="122"  onclick="next(this)"><img src="wenjuanimg/xiayiye.jpg" class="xiayiye" title="next page"></button></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">12</button>
+            <input type="text" id="128" style="width: 30px;margin-left: 5px;">
+            <button id="127" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+    <div id="13">
+        <h1>Employee Records and GDPR
+        </h1>
+    
+        <table>
+            <tr>
+                <td colspan="3"><h4>1.Do you have a Data Protection Policy that is compliant 
+                    with the Data Protection Act 2018?
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ERG1" value="0">red</td>
+                <td class="amber"><input type="radio" name="ERG1" value="1">amber</td>
+                <td class="green"><input type="radio" name="ERG1" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>2.    Do you have a Data Protection Policy that is compliant 
+                    with the Data Protection Act 2018?
+                    
+                </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ERG2" value="0" >red</td>
+                <td class="amber"><input type="radio" name="ERG2" value="1">amber</td>
+                <td class="green"><input type="radio" name="ERG2" value="2">green</td>
+            </tr>
+            <tr>
+                <td colspan="3"><h4>3.  Are you only retaining records for as long as you should 
+    
+                    </h4></td>
+            </tr>
+            <tr>
+                <td class="red"><input type="radio" name="ERG3" value="0">red</td>
+                <td class="amber"><input type="radio" name="ERG3" value="1">amber</td>
+                <td class="green"><input type="radio" name="ERG3" value="2">green</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <tr>
+                <td><button id="131" onclick="last(this)"><img src="wenjuanimg/shangyiye.jpg" class="xiayiye" title="last page"></button></td>
+                <td><input onclick="if(question())tijiao()" type="submit"  ></td>
+            </tr>
+        </div>
+        <div class="page">
+            <button class="showpage">13</button>
+            <input type="text" id="138" style="width: 30px;margin-left: 5px;">
+            <button id="137" onclick="jump(this)">transfer</button>
+        </div>
+    </div>
+
+<form id="sub" action="/hr/user/result">
+    <input type="hidden" name="section1" id="s1" value="0">
+    <input type="hidden" name="section2" id="s2" value="0">
+    <input type="hidden" name="section3" id="s3" value="0">
+    <input type="hidden" name="section4" id="s4" value="0">
+    <input type="hidden" name="section5" id="s5" value="0">
+    <input type="hidden" name="section6" id="s6" value="0">
+    <input type="hidden" name="section7" id="s7" value="0">
+    <input type="hidden" name="section8" id="s8" value="0">
+    <input type="hidden" name="section9" id="s9" value="0">
+    <input type="hidden" name="section10" id="s10" value="0">
+    <input type="hidden" name="section11" id="s11" value="0">
+    <input type="hidden" name="section12" id="s12" value="0">
+    <input type="hidden" name="section13" id="s13" value="0">
+</form>
+
+</body>
+
+
+<script>
+    for(var i=2;i<14;i++){
+        document.getElementById(i+"").style.display="none";
+    }
+    document.getElementById("11").style.display="none";
+    function last(o){
+        var now=parseInt(o.id/10);
+        document.getElementById(""+now).style.display="none";
+        document.getElementById(now-1+"").style.display="inline";
+    }
+
+    function next(o){
+        var now=parseInt(o.id/10);
+        document.getElementById(""+now).style.display="none";
+        document.getElementById(now+1+"").style.display="inline";
+    }
+
+    function tijiao(){
+    document.getElementById("sub").submit();//表单提交  
+    }
+
+    function question(){
+        var fenx=document.getElementsByName("LC1");
+        var find=false;
+        for(var i=0;i<fenx.length;i++){
+            if(fenx[i].checked==true){
+                find=true;
+                if(fenx[i].value=="0"){
+                    continue;
+                }
+                else if(fenx[i].value=="1"){
+                    document.getElementById("s1").value++;
+                }
+                else if(fenx[i].value=="2"){
+                    document.getElementById("s1").value++;
+                    document.getElementById("s1").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("1").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+
+        var feny=document.getElementsByName("LC2");
+        for(var i=0;i<fenx.length;i++){
+            if(feny[i].checked==true){
+                find=true;
+                if(feny[i].value=="0"){
+                    continue;
+                }
+                else if(feny[i].value=="1"){
+                    document.getElementById("s1").value++;
+                }
+                else if(feny[i].value=="2"){
+                    document.getElementById("s1").value++;
+                    document.getElementById("s1").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("1").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fenz=document.getElementsByName("LC3");
+        for(var i=0;i<fenx.length;i++){
+            if(fenz[i].checked==true){
+                find=true;
+                if(fenz[i].value=="0"){
+                   continue;
+                }
+                else if(fenz[i].value=="1"){
+                    document.getElementById("s1").value++;
+                }
+                else if(fenz[i].value=="2"){
+                    document.getElementById("s1").value++;
+                    document.getElementById("s1").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("1").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fenk=document.getElementsByName("LC4");
+        for(var i=0;i<fenx.length;i++){
+            if(fenk[i].checked==true){
+                find=true;
+                if(fenk[i].value=="0"){
+                    continue;
+                }
+                else if(fenk[i].value=="1"){
+                    document.getElementById("s1").value++;
+                }
+                else if(fenk[i].value=="2"){
+                    document.getElementById("s1").value++;
+                    document.getElementById("s1").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("1").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen1=document.getElementsByName("HWL1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen1[i].checked==true){
+                find=true;
+                if(fen1[i].value=="0"){
+                   continue;
+                }
+                else if(fen1[i].value=="1"){
+                    document.getElementById("s2").value++;
+                }
+                else if(fen1[i].value=="2"){
+                    document.getElementById("s2").value++;
+                    document.getElementById("s2").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("2").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen2=document.getElementsByName("HWL2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen2[i].checked==true){
+                find=true;
+                if(fen2[i].value=="0"){
+                    continue;
+                }
+                else if(fen2[i].value=="1"){
+                    document.getElementById("s2").value++;
+                }
+                else if(fen2[i].value=="2"){
+                    document.getElementById("s2").value++;
+                    document.getElementById("s2").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("2").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen3=document.getElementsByName("HWL3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen3[i].checked==true){
+                find=true;
+                if(fen3[i].value=="0"){
+                    continue;
+                }
+                else if(fen3[i].value=="1"){
+                    document.getElementById("s2").value++;
+                }
+                else if(fen3[i].value=="2"){
+                    document.getElementById("s2").value++;
+                    document.getElementById("s2").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("2").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen4=document.getElementsByName("HWL4");
+        for(var i=0;i<fen1.length;i++){
+            if(fen4[i].checked==true){
+                find=true;
+                if(fen4[i].value=="0"){
+                    continue;
+                }
+                else if(fen4[i].value=="1"){
+                    document.getElementById("s2").value++;
+                }
+                else if(fen4[i].value=="2"){
+                    document.getElementById("s2").value++;
+                    document.getElementById("s2").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("2").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen5=document.getElementsByName("PP1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen5[i].checked==true){
+                find=true;
+                if(fen5[i].value=="0"){
+                    continue;
+                }
+                else if(fen5[i].value=="1"){
+                    document.getElementById("s3").value++;
+                }
+                else if(fen5[i].value=="2"){
+                    document.getElementById("s3").value++;
+                    document.getElementById("s3").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("3").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen6=document.getElementsByName("PP2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen6[i].checked==true){
+                find=true;
+                if(fen6[i].value=="0"){
+                    continue;
+                }
+                else if(fen6[i].value=="1"){
+                    document.getElementById("s3").value++;
+                }
+                else if(fen6[i].value=="2"){
+                    document.getElementById("s3").value++;
+                    document.getElementById("s3").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("3").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen7=document.getElementsByName("PP3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen7[i].checked==true){
+                find=true;
+                if(fen7[i].value=="0"){
+                    continue;
+                }
+                else if(fen7[i].value=="1"){
+                    document.getElementById("s3").value++;
+                }
+                else if(fen7[i].value=="2"){
+                    document.getElementById("s3").value++;
+                    document.getElementById("s3").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("3").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen8=document.getElementsByName("PP4");
+        for(var i=0;i<fen1.length;i++){
+            if(fen8[i].checked==true){
+                find=true;
+                if(fen8[i].value=="0"){
+                    continue;
+                }
+                else if(fen8[i].value=="1"){
+                    document.getElementById("s3").value++;
+                }
+                else if(fen8[i].value=="2"){
+                    document.getElementById("s3").value++;
+                    document.getElementById("s3").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("4").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen9=document.getElementsByName("PP5");
+        for(var i=0;i<fen1.length;i++){
+            if(fen9[i].checked==true){
+                find=true;
+                if(fen9[i].value=="0"){
+                    continue;
+                }
+                else if(fen9[i].value=="1"){
+                    document.getElementById("s3").value++;
+                }
+                else if(fen9[i].value=="2"){
+                    document.getElementById("s3").value++;
+                    document.getElementById("s3").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("4").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen10=document.getElementsByName("ER1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen10[i].checked==true){
+                find=true;
+                if(fen10[i].value=="0"){
+                    continue;
+                }
+                else if(fen10[i].value=="1"){
+                    document.getElementById("s4").value++;
+                }
+                else if(fen10[i].value=="2"){
+                    document.getElementById("s4").value++;
+                    document.getElementById("s4").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("4").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen11=document.getElementsByName("ER2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen11[i].checked==true){
+                find=true;
+                if(fen11[i].value=="0"){
+                    continue;
+                }
+                else if(fen11[i].value=="1"){
+                    document.getElementById("s4").value++;
+                }
+                else if(fen11[i].value=="2"){
+                    document.getElementById("s4").value++;
+                    document.getElementById("s4").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("4").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen12=document.getElementsByName("ER3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen12[i].checked==true){
+                find=true;
+                if(fen12[i].value=="0"){
+                    continue;
+                }
+                else if(fen12[i].value=="1"){
+                    document.getElementById("s4").value++;
+                }
+                else if(fen11[i].value=="2"){
+                    document.getElementById("s4").value++;
+                    document.getElementById("s4").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("4").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen13=document.getElementsByName("PM1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen13[i].checked==true){
+                find=true;
+                if(fen13[i].value=="0"){
+                    continue;
+                }
+                else if(fen13[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen13[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen14=document.getElementsByName("PM2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen14[i].checked==true){
+                find=true;
+                if(fen14[i].value=="0"){
+                    continue;
+                }
+                else if(fen14[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen14[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen15=document.getElementsByName("PM3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen15[i].checked==true){
+                find=true;
+                if(fen15[i].value=="0"){
+                    continue;
+                }
+                else if(fen15[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen15[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen16=document.getElementsByName("PM4");
+        for(var i=0;i<fen1.length;i++){
+            if(fen16[i].checked==true){
+                find=true;
+                if(fen16[i].value=="0"){
+                    continue;
+                }
+                else if(fen16[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen16[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen17=document.getElementsByName("PM5");
+        for(var i=0;i<fen1.length;i++){
+            if(fen17[i].checked==true){
+                find=true;
+                if(fen17[i].value=="0"){
+                    continue;
+                }
+                else if(fen17[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen17[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen18=document.getElementsByName("PM6");
+        for(var i=0;i<fen1.length;i++){
+            if(fen18[i].checked==true){
+                find=true;
+                if(fen18[i].value=="0"){
+                    continue;
+                }
+                else if(fen18[i].value=="1"){
+                    document.getElementById("s5").value++;
+                }
+                else if(fen18[i].value=="2"){
+                    document.getElementById("s5").value++;
+                    document.getElementById("s5").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("5").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen19=document.getElementsByName("TD1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen19[i].checked==true){
+                find=true;
+                if(fen19[i].value=="0"){
+                    continue;
+                }
+                else if(fen19[i].value=="1"){
+                    document.getElementById("s6").value++;
+                }
+                else if(fen19[i].value=="2"){
+                    document.getElementById("s6").value++;
+                    document.getElementById("s6").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("6").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen20=document.getElementsByName("TD2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen20[i].checked==true){
+                find=true;
+                if(fen20[i].value=="0"){
+                    continue;
+                }
+                else if(fen20[i].value=="1"){
+                    document.getElementById("s6").value++;
+                }
+                else if(fen20[i].value=="2"){
+                    document.getElementById("s6").value++;
+                    document.getElementById("s6").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("6").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen21=document.getElementsByName("RR1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen21[i].checked==true){
+                find=true;
+                if(fen21[i].value=="0"){
+                    continue;
+                }
+                else if(fen21[i].value=="1"){
+                    document.getElementById("s7").value++;
+                }
+                else if(fen21[i].value=="2"){
+                    document.getElementById("s7").value++;
+                    document.getElementById("s7").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("7").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen22=document.getElementsByName("RR2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen22[i].checked==true){
+                find=true;
+                if(fen22[i].value=="0"){
+                    continue;
+                }
+                else if(fen22[i].value=="1"){
+                    document.getElementById("s7").value++;
+                }
+                else if(fen22[i].value=="2"){
+                    document.getElementById("s7").value++;
+                    document.getElementById("s7").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("7").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen23=document.getElementsByName("RR3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen23[i].checked==true){
+                find=true;
+                if(fen23[i].value=="0"){
+                    continue;
+                }
+                else if(fen23[i].value=="1"){
+                    document.getElementById("s7").value++;
+                }
+                else if(fen23[i].value=="2"){
+                    document.getElementById("s7").value++;
+                    document.getElementById("s7").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("7").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen24=document.getElementsByName("RR4");
+        for(var i=0;i<fen1.length;i++){
+            if(fen24[i].checked==true){
+                find=true;
+                if(fen24[i].value=="0"){
+                    continue;
+                }
+                else if(fen24[i].value=="1"){
+                    document.getElementById("s7").value++;
+                }
+                else if(fen24[i].value=="2"){
+                    document.getElementById("s7").value++;
+                    document.getElementById("s7").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("7").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen25=document.getElementsByName("RR5");
+        for(var i=0;i<fen1.length;i++){
+            if(fen25[i].checked==true){
+                find=true;
+                if(fen25[i].value=="0"){
+                    continue;
+                }
+                else if(fen25[i].value=="1"){
+                    document.getElementById("s7").value++;
+                }
+                else if(fen25[i].value=="2"){
+                    document.getElementById("s7").value++;
+                    document.getElementById("s7").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("7").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen26=document.getElementsByName("CR11");
+        for(var i=0;i<fen1.length;i++){
+            if(fen26[i].checked==true){
+                find=true;
+                if(fen26[i].value=="0"){
+                    continue;
+                }
+                else if(fen26[i].value=="1"){
+                    document.getElementById("s8").value++;
+                }
+                else if(fen26[i].value=="2"){
+                    document.getElementById("s8").value++;
+                    document.getElementById("s8").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("8").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen27=document.getElementsByName("CR22");
+        for(var i=0;i<fen1.length;i++){
+            if(fen27[i].checked==true){
+                find=true;
+                if(fen26[i].value=="0"){
+                    continue;
+                }
+                else if(fen26[i].value=="1"){
+                    document.getElementById("s8").value++;
+                }
+                else if(fen26[i].value=="2"){
+                    document.getElementById("s8").value++;
+                    document.getElementById("s8").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("8").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen28=document.getElementsByName("PB1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen28[i].checked==true){
+                find=true;
+                if(fen28[i].value=="0"){
+                    continue;
+                }
+                else if(fen28[i].value=="1"){
+                    document.getElementById("s9").value++;
+                }
+                else if(fen28[i].value=="2"){
+                    document.getElementById("s9").value++;
+                    document.getElementById("s9").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("9").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen29=document.getElementsByName("PB2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen29[i].checked==true){
+                find=true;
+                if(fen29[i].value=="0"){
+                    continue;
+                }
+                else if(fen29[i].value=="1"){
+                    document.getElementById("s9").value++;
+                }
+                else if(fen29[i].value=="2"){
+                    document.getElementById("s9").value++;
+                    document.getElementById("s9").value++;
+                }
+            }
+        }
+
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("9").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen30=document.getElementsByName("PB3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen30[i].checked==true){
+                find=true;
+                if(fen30[i].value=="0"){
+                    continue;
+                }
+                else if(fen30[i].value=="1"){
+                    document.getElementById("s9").value++;
+                }
+                else if(fen30[i].value=="2"){
+                    document.getElementById("s9").value++;
+                    document.getElementById("s9").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("9").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen31=document.getElementsByName("PB4");
+        for(var i=0;i<fen1.length;i++){
+            if(fen31[i].checked==true){
+                find=true;
+                if(fen31[i].value=="0"){
+                    continue;
+                }
+                else if(fen31[i].value=="1"){
+                    document.getElementById("s9").value++;
+                }
+                else if(fen31[i].value=="2"){
+                    document.getElementById("s9").value++;
+                    document.getElementById("s9").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("9").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen32=document.getElementsByName("PB5");
+        for(var i=0;i<fen1.length;i++){
+            if(fen32[i].checked==true){
+                find=true;
+                if(fen32[i].value=="0"){
+                    continue;
+                }
+                else if(fen32[i].value=="1"){
+                    document.getElementById("s9").value++;
+                }
+                else if(fen32[i].value=="2"){
+                    document.getElementById("s9").value++;
+                    document.getElementById("s9").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("9").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen33=document.getElementsByName("ECE1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen33[i].checked==true){
+                find=true;
+                if(fen33[i].value=="0"){
+                    continue;
+                }
+                else if(fen33[i].value=="1"){
+                    document.getElementById("s10").value++;
+                }
+                else if(fen33[i].value=="2"){
+                    document.getElementById("s10").value++;
+                    document.getElementById("s10").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("10").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen34=document.getElementsByName("ECE2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen34[i].checked==true){
+                find=true;
+                if(fen34[i].value=="0"){
+                    continue;
+                }
+                else if(fen34[i].value=="1"){
+                    document.getElementById("s10").value++;
+                }
+                else if(fen34[i].value=="2"){
+                    document.getElementById("s10").value++;
+                    document.getElementById("s10").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("10").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen35=document.getElementsByName("ECE3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen35[i].checked==true){
+                find=true;
+                if(fen35[i].value=="0"){
+                    continue;
+                }
+                else if(fen35[i].value=="1"){
+                    document.getElementById("s10").value++;
+                }
+                else if(fen35[i].value=="2"){
+                    document.getElementById("s10").value++;
+                    document.getElementById("s10").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("10").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen36=document.getElementsByName("HS1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen36[i].checked==true){
+                find=true;
+                if(fen36[i].value=="0"){
+                    continue;
+                }
+                else if(fen36[i].value=="1"){
+                    document.getElementById("s11").value++;
+                }
+                else if(fen36[i].value=="2"){
+                    document.getElementById("s11").value++;
+                    document.getElementById("s11").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("11").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen37=document.getElementsByName("HS2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen37[i].checked==true){
+                find=true;
+                if(fen37[i].value=="0"){
+                    continue;
+                }
+                else if(fen37[i].value=="1"){
+                    document.getElementById("s11").value++;
+                }
+                else if(fen37[i].value=="2"){
+                    document.getElementById("s11").value++;
+                    document.getElementById("s11").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("11").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen38=document.getElementsByName("HS3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen38[i].checked==true){
+                find=true;
+                if(fen38[i].value=="0"){
+                    continue;
+                }
+                else if(fen38[i].value=="1"){
+                    document.getElementById("s11").value++;
+                }
+                else if(fen38[i].value=="2"){
+                    document.getElementById("s11").value++;
+                    document.getElementById("s11").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("11").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen39=document.getElementsByName("CR1");
+        for(var i=0;i<fen1.length;i++){
+            if(fen39[i].checked==true){
+                find=true;
+                if(fen39[i].value=="0"){
+                    continue;
+                }
+                else if(fen39[i].value=="1"){
+                    document.getElementById("s12").value++;
+                }
+                else if(fen39[i].value=="2"){
+                    document.getElementById("s12").value++;
+                    document.getElementById("s12").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("12").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen40=document.getElementsByName("CR2");
+        for(var i=0;i<fen1.length;i++){
+            if(fen40[i].checked==true){
+                find=true;
+                if(fen40[i].value=="0"){
+                    continue;
+                }
+                else if(fen40[i].value=="1"){
+                    document.getElementById("s12").value++;
+                }
+                else if(fen40[i].value=="2"){
+                    document.getElementById("s12").value++;
+                    document.getElementById("s12").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("12").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fen41=document.getElementsByName("CR3");
+        for(var i=0;i<fen1.length;i++){
+            if(fen41[i].checked==true){
+                find=true;
+                if(fen41[i].value=="0"){
+                    continue;
+                }
+                else if(fen41[i].value=="1"){
+                    document.getElementById("s12").value++;
+                }
+                else if(fen41[i].value=="2"){
+                    document.getElementById("s12").value++;
+                    document.getElementById("s12").value++;
+                }
+            }
+        }
+        if(!find){
+            document.getElementById("13").style.display="none";
+            document.getElementById("12").style.display="inline";
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fena=document.getElementsByName("ERG1");
+        for(var i=0;i<fen1.length;i++){
+            if(fena[i].checked==true){
+                find=true;
+                if(fena[i].value=="0"){
+                    continue;
+                }
+                else if(fena[i].value=="1"){
+                    document.getElementById("s13").value++;
+                }
+                else if(fena[i].value=="2"){
+                    document.getElementById("s13").value++;
+                    document.getElementById("s13").value++;
+                }
+            }
+        }
+        if(!find){
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fenb=document.getElementsByName("ERG2");
+        for(var i=0;i<fen1.length;i++){
+            if(fenb[i].checked==true){
+                find=true;
+                if(fenb[i].value=="0"){
+                    continue;
+                }
+                else if(fenb[i].value=="1"){
+                    document.getElementById("s13").value++;
+                }
+                else if(fenb[i].value=="2"){
+                    document.getElementById("s13").value++;
+                    document.getElementById("s13").value++;
+                }
+            }
+        }
+        if(!find){
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        find=false;
+
+        var fenc=document.getElementsByName("ERG3");
+        for(var i=0;i<fen1.length;i++){
+            if(fenc[i].checked==true){
+                find=true;
+                if(fenc[i].value=="0"){
+                    continue;
+                }
+                else if(fenc[i].value=="1"){
+                    document.getElementById("s13").value++;
+                }
+                else if(fenc[i].value=="2"){
+                    document.getElementById("s13").value++;
+                    document.getElementById("s13").value++;
+                }
+            }
+        }
+        if(!find){
+            alert("Please complete the questionnaire！")
+            return false;
+        }
+        return true;
+    }
+
+    function jump(o){
+        var now = o.id/10;
+        var temp=1+parseInt(o.id);
+        var next=document.getElementById(temp).value;
+        if(next>13||next<1){
+            alert("Number Invalid!");
+            return;
+        }
+        document.getElementById(parseInt(now)).style.display="none";
+        document.getElementById(next).style.display="inline";
+        document.getElementById(temp).value="";
+    }
+
+</script>
+</html>
